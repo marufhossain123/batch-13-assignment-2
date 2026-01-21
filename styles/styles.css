@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+.nav-contanier{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:rgba(65, 37, 103, 1);
+    padding: 50px 200px;
+}
+.nav-contanier .li-container{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+.banner-container{
+max-width: 1600px;
+height: 760px;
+    background: url(../assets/hero-bg.png);
+}
