@@ -3,14 +3,14 @@
     padding: 0;
     border: 0;
 }
-.nav-contanier{
+.nav-container{
     display: flex;
     justify-content: space-between;
     align-items: center;
     background-color:rgba(65, 37, 103, 1);
     padding: 50px 200px;
 }
-.nav-contanier .li-container{
+.nav-container .li-container{
     display: flex;
     list-style: none;
     gap: 20px;
@@ -19,5 +19,42 @@
 .banner-container{
 max-width: 1600px;
 height: 760px;
-    background: url(../assets/hero-bg.png);
+background: url(../assets/hero-bg.png);
 }
+.img-container{
+    /* display: flex;
+
+
+    justify-content: center;
+    align-items: center;
+    position: static; */
+    position: relative;}
+    .img-container{
+        border: 2px solid peru;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+.nav-container .btn{
+font-family: Inter;
+font-style: Semi Bold;
+font-size: 16px;
+padding: 10px 15px;
+
+  background: linear-gradient(
+    to right,
+    rgba(255,0,0,0.5),
+    rgba(0,0,255,0.5)
+  );
+  border-radius: 5px;
+
+font-weight: 600;
+line-height: 19px;
+letter-spacing: 0%;
+text-align: left;
+text-transform: capitalize;
+    }
+    .wave{
+        color: rgba(251, 9, 180, 1);
+    }
