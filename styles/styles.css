@@ -16,26 +16,8 @@
     gap: 20px;
 }
 
-.banner-container{
-max-width: 1600px;
-height: 760px;
-background: url(../assets/hero-bg.png);
-}
-.img-container{
-    /* display: flex;
 
 
-    justify-content: center;
-    align-items: center;
-    position: static; */
-    position: relative;}
-    .img-container{
-        border: 2px solid peru;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        
-    }
 .nav-container .btn{
 font-family: Inter;
 font-style: Semi Bold;
@@ -58,3 +40,33 @@ text-transform: capitalize;
     .wave{
         color: rgba(251, 9, 180, 1);
     }
+    .banner-container{
+max-width: 1600px;
+height: 760px;
+background: url(../assets/hero-bg.png);
+}
+.banner-container .img-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+    .img-con {
+  position: relative;
+  width: 400px;   
+}
+
+.main-img {
+  width: 100%;
+  display: block;
+}
+
+.icon-img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 60px;  
+}
+
